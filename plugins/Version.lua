@@ -2,19 +2,18 @@ do
 
 function run(msg, matches)
 return [[ 
-INFERNALTEAM Robot Ver 4.2
-AntispamBot : @InfernalTG
-website : https://arashinfernal.epage.ir
-Our Channel : @INFERNALTEAMCH
-@INFERNALCHANNEL
-@INFERNALTEAM
-Our code is open source but !
-remember : copy right!
-https://github.com/INFERNALTEAM/InfernalTG
-spical thanx...
-imandaneshi ...
-iwals ...
+SILVER Robot Ver 4.2
+AntispamBot : @Silver_B0T
+Our Channel : @Silverbotchannel
 
+This Is BoT Is a Best BoT Of Telegram
+
+And This BoT Kill all spammers
+
+
+
+Every Thursday Night, two free group in ChaNNEL
+ هر پنجشنبه شب دو تا گروه رایگان میزاریم در چنل ربات
 ]]
 end
 
