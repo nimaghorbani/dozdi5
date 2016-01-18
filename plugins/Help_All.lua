@@ -105,18 +105,17 @@ dont user "!" and "/"for this plug
 85./plug + [NAME] gp :enable a plugin in group
 ==========================================
 86./stats : send group stats in file.txt
-87./stats InfernalTG : stats bot
-89./infernal : bot about
+87./stats silverbot : stats bot
+89./silverbot : bot about
 90./stats group [ID] : get gp stats
 =================================
 91./tagall [txt] : will tagall users
 ===============================
 92./kickall [ID] : kickall members from gp
 =========================================
-93./toengsupport : return support link
-94./topersupport : return persian support link
+93./topersupport : return persian support link
 ================================================== 
-95./txt2img [TXT] : text to image 
+94./txt2img [TXT] : text to image 
 ===========================================
 🔘 NeW Plugins Comming Soon !!!🔘
 You Can Get Bot version by sending !version
