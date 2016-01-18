@@ -234,7 +234,7 @@ function create_config( )
     "tagall",
     
     },
-    sudo_users = {121122782},--Sudo users
+    sudo_users = {132921618},--Sudo users
     disabled_channels = {},
     moderation = {data = 'data/moderation.json'},
     about_text = [[SilVeR-RoBoT  v2 - Close Source
