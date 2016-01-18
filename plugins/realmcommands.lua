@@ -282,9 +282,9 @@ local function admin_list(msg)
         data[tostring(admins)] = {}
         save_data(_config.moderation.data, data)
         end
-        local message = 'List for Infernal admins:\n'
+        local message = 'List for SilVeR-RoBoT admins:\n'
         for k,v in pairs(data[tostring(admins)]) do
-                message = message .. '-👤 (infernal)' .. v .. ' [' .. k .. '] ' ..'\n'
+                message = message .. '-👤 (SilvER-bot)' .. v .. ' [' .. k .. '] ' ..'\n'
         end
         return message
 end
@@ -617,25 +617,25 @@ function run(msg, matches)
 		if matches[1] == 'list' and matches[2] == 'admins' then
 			return admin_list(msg)
 		end
-		if matches[1] == 'list' and matches[2] == 'infernalgroups' then
+		if matches[1] == 'list' and matches[2] == 'silverbotgroups' then
                   if msg.to.type == 'chat' then
 			groups_list(msg)
-		        send_document("chat#id"..msg.to.id, "./groups/lists/infernalgroups.txt", ok_cb, false)	
+		        send_document("chat#id"..msg.to.id, "./groups/lists/silverbotgroups.txt", ok_cb, false)	
 			return "Group list created" --group_list(msg)
                    elseif msg.to.type == 'user' then 
                         groups_list(msg)
-		        send_document("user#id"..msg.from.id, "./groups/lists/infernalgroups.txt", ok_cb, false)	
+		        send_document("user#id"..msg.from.id, "./groups/lists/silverbotgroups.txt", ok_cb, false)	
 			return "Group list created" --group_list(msg)
                   end
 		end
-		if matches[1] == 'list' and matches[2] == 'infernalrealms' then
+		if matches[1] == 'list' and matches[2] == 'silverbotrealms' then
                   if msg.to.type == 'chat' then
 			realms_list(msg)
-		        send_document("chat#id"..msg.to.id, "./groups/lists/infernalrealms.txt", ok_cb, false)	
+		        send_document("chat#id"..msg.to.id, "./groups/lists/silverbotrealms.txt", ok_cb, false)	
 			return "Realms list created" --realms_list(msg)
                    elseif msg.to.type == 'user' then 
                         realms_list(msg)
-		        send_document("user#id"..msg.from.id, "./groups/lists/infernalrealms.txt", ok_cb, false)	
+		        send_document("user#id"..msg.from.id, "./groups/lists/silverbotrealms.txt", ok_cb, false)	
 			return "Realms list created" --realms_list(msg)
                   end
 		end
