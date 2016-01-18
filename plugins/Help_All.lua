@@ -2,7 +2,7 @@ do
 
 function run(msg, matches)
 return [[ 
-help For all Plugins of INfernalTG :
+help For all Plugins of SILVER-RoBoT :
 1./AddBot [Invitelink] : and you can do it with replay
 ======================================================
 2./bot + [botuserID] : allow a bot to join
@@ -118,15 +118,15 @@ dont user "!" and "/"for this plug
 ================================================== 
 95./txt2img [TXT] : text to image 
 ===========================================
-more helps soon
-you can use both "!" and "/"
-our channell : @INFERNALTEAMCH
-Master admin : @ArashInfernal
+🔘 NeW Plugins Comming Soon !!!🔘
+You Can Get Bot version by sending !version
+⭕️Master admin : @Mr_SilVeR1 
+🔵Our channel : @Silverbotchannel 
 ]]
 end
 
 return {
-description = "Shows help for all Plugins Of infernalTG", 
+description = "Shows help for all Plugins Of SilVeR-RoBoT", 
 patterns = {
 "^[!/]help (all)$",
 "^help (all)$"
