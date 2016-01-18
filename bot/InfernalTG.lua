@@ -234,32 +234,29 @@ function create_config( )
     "tagall",
     
     },
-    sudo_users = {109722284,99743635,171604508},--Sudo users
+    sudo_users = {121122782},--Sudo users
     disabled_channels = {},
     moderation = {data = 'data/moderation.json'},
-    about_text = [[infernalTG  v2 - Open Source
-An advance Administration bot based on yagop/telegram-bot 
- 
- our official github :
- https://github.com/INFERNALTEAM/InfernalTG.git
-Antispambot : @InfernalTG
-website ; https://arash-infernal.epage.ir
-Admins
-@Creed_is_dead [Founder]
-@digitalboys [Developer]
-@Arashinfernal [Developer]
-@MustafFlux [Manager]
+    about_text = [[SilVeR-RoBoT  v2 - Close Source
+☑️SilVeR-RoBoT☑️
 
-Special thanks to
-Imandaneshi
-thisisarman
-yago perez ...
-and more ...
+⚜ This Is Old BoT Of Telegram ⚜
 
-Our channels
-@Infernalteamch [English]
-@infernalchannel [persian]
-@Infernalteam [persian]
+💯~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~💯
+💊💉👾🎭
+🔘Admins
+           ✅@Mr_SilVeR1[Developer]
+🔰|Special TnX To:
+           ✅@MrGhor
+🔱〰〰〰〰〰〰〰〰〰〰〰〰〰〰〰〰🔱
+⚔☠
+🤖 This BoT Is a Best BoT 🤖
+
+😈 This BoT Can Fuck All OF The Sapmmers 😈
+⚠️〰〰〰〰〰〰〰〰〰〰〰〰〰〰〰〰⚠️
+🔵Our Channel:
+@Silverbotchannel
+
 ]],
     help_text_realm = [[
 group admin Commands:
@@ -317,7 +314,7 @@ group admin Commands:
 *Only admins and sudo can use res, setowner, commands
 ]],
     help_text = [[
-tools for InfernalTG :
+tools for SilVeR-RoBoT :
 
 >#1.Add_bot
 >#2.Anti_Bot
@@ -352,10 +349,10 @@ tools for InfernalTG :
 >#30.SendPm
 >#31.tagall
 >#32.share
-help all plugin soon :D ,"
-You Can Get Bot version by sending !version,"
-Master admin : @ArashInfernal ,"
-our channel : @INFERNALTEAMCH ,"
+🔘 NeW Plugins Comming Soon !!!🔘 
+You Can Get Bot version by sending !version
+⭕️Master admin : @Mr_SilVeR1 
+🔵Our channel : @Silverbotchannel 
 
 ]]
   }
